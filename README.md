@@ -1,24 +1,39 @@
-# mobiquity
-For this task, imagine you are a part of the team that performs quality
-assurance for a user blog, the frontend design is not yet developed, but the
-API has already been published here:
-https://jsonplaceholder.typicode.com/.
-You can help the developers on your team make the feature more
-robust, by helping them write tests for some workflows that they might
-break while making progress with developing business logic. The task is:
-1. To create a test automation framework skeleton.
-2. To perform the validations for the comments for the post made by a
-specific user.
+#API Automation With Cucumber-jvm
 
-Flow to be tested
+This project exhibits how to combine BDD(Cucumber) approach with API automation using using RESTAssured Library
 
-1. Search for the user with username “Delphine”.
-2. Use the details fetched to make a search for the posts written by the
-user.
-3. For each post, fetch the comments and validate if the emails in the
-comment section are in the proper format.
-4. Think of various scenarios for the test workflow, all the things that
-can go wrong. Add them to test coverage
+The tech stack used for this tutorial are:
+
+1.JAVA as the programming language for writing test code
+
+2.jUnit as the framework
+
+3.Maven as the build tool
+
+4.Eclipse as the preferred IDE for writing java code.
+
+Getting Started
+
+### Setup your machine.
+
+1.Install JDK 1.8
+
+2.Install IntelliJ/Eclipse (Community edition is fine)
+
+3.Install Maven
+
+### Cloning & Importing the Project
+
+1.Clone the project from `git clone https://github.com/n111391/MAssignment.git'
+
+2.Import the maven project and build.
 
 
-CI execution completed by using CircleCI tool that is integrated with GitHub repository.
+#Running tests
+
+Note: 
+
+1.You can run the tests directly from the Eclipse, by right-clicking and Runner file - JUnit.
+
+3.For Windows users: `mvn clean install // mvn test`
+
