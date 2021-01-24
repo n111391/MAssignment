@@ -16,7 +16,7 @@ public class StepDefs {
 	private String testlink = conf.readConfig("endpoint").toString();
 
 	
-//This method is to validate the users and fetch user id
+//This method is to validate the users and fetch user ids
 	@Given("^I should get the id of the user \"([^\"]*)\"$")
 	public void validateValidUserName(String name){
 		String idOfUser =given()
