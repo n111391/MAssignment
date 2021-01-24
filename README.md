@@ -1,12 +1,8 @@
-#API Automation With Cucumber-jvm
-
-This project exhibits how to combine BDD(Cucumber) approach with API automation using using RESTAssured Library
-
-The tech stack used for this tutorial are:
+### API Automation With Cucumber-jvm
 
 1.JAVA as the programming language for writing test code
 
-2.jUnit as the framework
+2.JUnit and Cucumber frameworks used to develop scripts
 
 3.Maven as the build tool
 
@@ -18,7 +14,7 @@ Getting Started
 
 1.Install JDK 1.8
 
-2.Install IntelliJ/Eclipse (Community edition is fine)
+2.Install Eclipse/IntelliJ (Community edition is fine)
 
 3.Install Maven
 
@@ -29,7 +25,7 @@ Getting Started
 2.Import the maven project and build.
 
 
-###Running tests
+### Running tests
 
 Note: 
 
