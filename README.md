@@ -35,5 +35,6 @@ Note:
 
 1.You can run the tests directly from the Eclipse, by right-clicking and Runner file - JUnit.
 
-3.For Windows users: `mvn clean install // mvn test`
+2.From Command line: `mvn clean install // mvn test`
+
 
