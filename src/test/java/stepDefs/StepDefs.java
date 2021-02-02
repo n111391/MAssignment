@@ -77,7 +77,7 @@ public class StepDefs {
 		.queryParam("userId", userid)
 		.get(testlink+"/posts/")
 		.then().assertThat().statusCode(200)
-		.time(lessThan(2000L))
+		.time(lessThan(10000L))
 		.body("body[0]",nullValue());
 		System.out.println("Given UserID doesnt exits:" + userid);
 	}
@@ -116,7 +116,7 @@ public class StepDefs {
 		.pathParam("postId", postId)
 		.get(testlink+"/posts/{postId}/comments")
 		.then().assertThat().statusCode(200)
-		.time(lessThan(2000L))
+		.time(lessThan(10000L))
 		.body("body[0]", nullValue());
 		System.out.println("comments doesnt exist for invalid post id" + postId );
 	}
